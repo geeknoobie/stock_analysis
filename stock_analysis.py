@@ -14,7 +14,7 @@ import matplotlib.dates as mdates
 @st.cache_data
 def load_tickers():
     stock = pd.read_csv(
-        '/Users/debabratapanda/PycharmProjects/projects/stock_analysis/nasdaq_screener_1733440533426.csv')
+        'nasdaq_screener_1733440533426.csv')
     stocks = stock.iloc[:, [0, 1]]
     return stocks
 
