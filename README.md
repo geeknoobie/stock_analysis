@@ -1,1 +1,1 @@
-App for stock analysis
+# App for stock analysis
