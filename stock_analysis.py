@@ -130,9 +130,9 @@ def plot_predictions(data, predictions):
     )
 
     # Format x-axis to show only months
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b'))  # Show only month names (e.g., Jan, Feb)
-    ax.xaxis.set_major_locator(mdates.MonthLocator())         # Set major ticks to months
-    ax.tick_params(axis='x', rotation=0)                     # No rotation for months
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))  # Show only month names (e.g., Jan, Feb)
+    ax.xaxis.set_major_locator(mdates.YearLocator())  # Set major ticks to months
+    ax.tick_params(axis='x', rotation=0)  # No rotation for months
 
     # Set labels and title
     ax.set_xlabel("Month", color="white")
