@@ -1,0 +1,1 @@
+App for stock analysis
